@@ -1,0 +1,183 @@
+@media only screen and (min-width: 1100px){
+    .content_main{
+        display: flex;
+        flex-direction: row;
+    }
+    .content_sub{
+        height: auto;
+        width: 60%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color: #163853;
+    }
+    .content_sub h3{
+        font-weight: 800;
+    }
+    .content_sub hr{
+        border: none;
+        height: 2px;
+        background: #163853;
+    }
+    .content_sub h6, .content_sub p{
+        color: #535353;
+    }
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: auto;
+        width: 40%;
+    }
+    nav h3{
+        margin-bottom: .5rem;
+        font-weight: 900;
+    }
+    nav li{
+        margin-left: 1rem;
+        font-weight: 200;
+        padding-bottom: .5rem;
+    }
+    
+    
+    .CONTACT, .EDUCATION, .SKILLS, .LANGUAGES, .PROFILE, .WORK_EXPERIENCE, .REFERENCE{
+        margin-bottom: 1.5rem;
+    }
+
+
+    .profile_img{
+        padding-bottom: 4rem;
+    }
+    .profile_img img{
+        object-fit: cover;
+        border: .5rem solid white;
+        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+    .profile_img a{
+        display: none;
+    }
+
+    .name_nav{
+        display: none;
+    }
+
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .CONTACT p{
+        font-weight: 200;
+    }
+
+    .CONTACT_sub{
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .EDUCATION_sub{
+        margin-bottom: 1.5rem;
+    }
+    .EDUCATION_sub h5{
+        font-weight: 400;
+        font-size: large;
+    }
+
+
+    .name{
+        display: block;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        margin-left: 3rem;
+        font-size: x-large;
+    }
+    .sub_name{
+        display: flex;
+        gap: 1rem;
+    }
+    .name h1{
+        color: #535353;
+    }
+    .name h3{
+        color: #535353;
+        font-weight: 400;
+        font-size: x-large;
+    }
+    .name span{
+        font-weight: 400;
+        color: #163853;
+    }
+    .name hr{
+        border: none;
+        height: 8px;
+        background: #163853;
+        width: 20%;
+    }
+
+
+    .WORK_EXPERIENCE, .REFERENCE, .REFERENCE_main{
+        width: 100%;
+    }
+    .WORK_EXPERIENCE_title{
+        margin-bottom: 2rem;
+    }
+    .WORK_EXPERIENCE_title h6{
+        font-size: medium;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    .WORK_EXPERIENCE_title ul{
+        margin-left: 1rem;
+        color: #535353;
+    }
+    
+    .WORK_EXPERIENCE_sub{
+        display: flex;
+        justify-content: space-between;
+    }
+    .WORK_EXPERIENCE_sub ul{
+        margin: 0;
+    }
+    .WORK_EXPERIENCE_sub li::marker{
+        font-size: 1.5em;
+    }
+    .WORK_EXPERIENCE_sub h5, .REFERENCE_sub h5{
+        font-size: large;
+        color: #535353;
+    }
+
+
+    .vertical{
+        border-left: 3px solid #63798C;
+        height: 86%;
+        float: left;
+        translate: -1rem 1rem;
+        left: 50%;
+    }
+
+
+    .REFERENCE_main{
+        display: flex;
+        justify-content: space-between;
+        color: #535353;
+    }
+
+    .REFERENCE_sub h6{
+        font-size: medium;
+        font-weight: 400;
+    }
+    .REFERENCE_sub p{
+        font-size: small;
+        font-weight: 600;
+    }
+    .REFERENCE_sub span{
+        font-weight: 400;
+    }
+}

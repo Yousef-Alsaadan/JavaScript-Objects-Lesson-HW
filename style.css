@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+hr{
+    margin-bottom: .5rem;
+}
+
+h3{
+    letter-spacing: .2rem;
+}
+
+nav{
+    background-color: #163853;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.content_sub{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    color: #163853;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_sub h3{
+    font-weight: 800;
+}
+.content_sub hr{
+    border: none;
+    height: 2px;
+    background: #163853;
+}
+.content_sub h6, .content_sub p{
+    color: #535353;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+nav h3{
+    margin-bottom: .5rem;
+    font-weight: 900;
+}
+nav li{
+    margin-left: 1rem;
+    font-weight: 200;
+    padding-bottom: .5rem;
+}
+
+
+.CONTACT, .EDUCATION, .SKILLS, .LANGUAGES, .PROFILE, .WORK_EXPERIENCE, .REFERENCE{
+    margin-bottom: 1.5rem;
+}
+
+
+.profile_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile_img img{
+    object-fit: cover;
+    border: .5rem solid white;
+    border-radius: 50%;
+}
+
+.name_nav{
+    font-size: xx-large;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.name_nav h1{
+    color: white;
+}
+.name_nav h3{
+    color: #535353;
+    font-weight: 400;
+    font-size: x-large;
+}
+.name_nav span{
+    font-weight: 400;
+    color: #000;
+}
+.name_nav hr{
+    border: none;
+    height: 6px;
+    background: #000;
+    width: 30%;
+}
+
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.CONTACT p{
+    font-weight: 200;
+}
+
+.CONTACT_sub{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.EDUCATION_sub{
+    margin-bottom: 1.5rem;
+}
+.EDUCATION_sub h5{
+    font-weight: 400;
+    font-size: large;
+}
+
+.name{
+    display: none;
+}
+
+.PROFILE p{
+    max-width: 80vw;
+}
+
+.WORK_EXPERIENCE{
+    width: 80vw;
+}
+.WORK_EXPERIENCE_title{
+    margin-bottom: 2rem;
+}
+.WORK_EXPERIENCE_title h6{
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.WORK_EXPERIENCE_title ul{
+    margin-left: 1rem;
+    color: #535353;
+}
+
+.WORK_EXPERIENCE_sub{
+    display: flex;
+    justify-content: space-between;
+}
+.WORK_EXPERIENCE_sub ul{
+    margin: 0;
+}
+.WORK_EXPERIENCE_sub li::marker{
+    font-size: 1.5em;
+}
+.WORK_EXPERIENCE_sub h5, .REFERENCE_sub h5{
+    font-size: large;
+    color: #535353;
+}
+
+.vertical{
+    border-left: 3px solid #63798C;
+    height: 30em;
+    float: left;
+    translate: -1rem 1rem;
+    left: 50%;
+}
+
+
+.REFERENCE_main{
+    display: flex;
+    justify-content: space-evenly;
+    color: #535353;
+    width: 80vw;
+}
+
+.REFERENCE_sub h6{
+    font-size: medium;
+    font-weight: 400;
+}
+.REFERENCE_sub p{
+    font-size: small;
+    font-weight: 600;
+}
+.REFERENCE_sub span{
+    font-weight: 400;
+}
